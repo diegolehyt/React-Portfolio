@@ -16,7 +16,7 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
       <div className="container">
-        <a className="navbar-brand" href="index.html" style={styles.navB}><img src="images/logo.png" width="40px" height="40px" tabindex="-1" style={styles.imgB} alt="logo"/>Diego Lehyt</a>
+        <a className="navbar-brand" href="index.html" style={styles.navB}><img src="https://raw.githubusercontent.com/diegolehyt/Portfolio-v2.0/master/images/logo.png" width="40px" height="40px" tabindex="-1" style={styles.imgB} alt="logo"/>Diego Lehyt</a>
 
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
           aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
