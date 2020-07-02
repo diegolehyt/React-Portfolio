@@ -43,6 +43,24 @@
       .wrapper,
       .view {
         height: 100%;
+        /* overflow: scroll; */
+      }
+
+      .md-pills .nav-link.active {
+        color: #fff;
+        background-color: #616161;
+      }
+      button.close {
+        position: absolute;
+        right: 0;
+        z-index: 2;
+        padding-right: 1rem;
+        padding-top: .6rem;
+      }
+      @media (max-width: 991px) {
+        body {
+          height: 200%;
+        }
       }
     </style>
   </head>

@@ -14,16 +14,38 @@ const styles = {
     marginTop: '10px' 
   },
   view: {
+    position: 'relative',
+    overflow: 'hidden'
+  },
+  viddeo: {
+    position: 'fixed',
     height: '100%'
+  },
+  sec: {
+    marginTop: '150px',
+    marginBottom: '50px'
   }
 }
+
+// const mql = window.matchMedia('(max-width: 400px)');
+// const listenerFunc = () => {
+  
+//   if (mql.matches) {
+//     document.body.style.height = "150%";
+//   }
+// };
+
+// mql.addListener(listenerFunc);
+
+
 // document.body.style.height = "150%";
+
 
 function Contact() {
   return (
-    <div id="intro-section" className="view" style={styles.view}>
+    <div id="intro-section" style={styles.view}>
         
-      <video className="video-intro" poster="https://mdbootstrap.com/img/Photos/Others/background.jpg" playsInline
+      <video className="video-intro" style={styles.viddeo} poster="https://mdbootstrap.com/img/Photos/Others/background.jpg" playsInline
         autoPlay muted loop>
         <source src="https://static.videezy.com/system/resources/previews/000/009/156/original/fvbhd0229.mp4" type="video/mp4"/>
       </video>
@@ -38,7 +60,7 @@ function Contact() {
           <div className="row wow fadeIn">
 
             <div className="col-12 forma animated fadeInRight">
-              <section className="text-center px-md-5 mx-md-5 white-text">
+              <section className="text-center px-md-5 mx-md-5 white-text" style={styles.sec}>
             
                 
                 <h3 className="font-weight-bold mb-4">Contact Me</h3>

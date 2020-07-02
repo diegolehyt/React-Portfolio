@@ -1,0 +1,33 @@
+/* * {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root,
+#root > div,
+div[data-reactroot] {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+} */
+
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+
+.md-pills .nav-link.active {
+  color: #fff;
+  background-color: #616161;
+}
+ button.close {
+  position: absolute;
+  right: 0;
+  z-index: 2;
+  padding-right: 1rem;
+  padding-top: .6rem;
+}

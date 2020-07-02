@@ -11,18 +11,27 @@ const styles = {
   },
   headerD: {
     textAlign: "center",
-    marginTop: '10px' 
+    marginTop: '100px' 
   },
   view: {
-    height: '100%'
+    position: 'relative',
+    overflow: 'hidden'
+  },
+  viddeo: {
+    position: 'fixed',
+    minHeight: '100%',
+    minWidth: '0%'
+  },
+  sec: {
+    marginTop: '75px'
   }
 }
 
 function About() {
   return (
-    <div id="intro-section" className="view" style={styles.view}>
+    <div id="intro-section" style={styles.view}>
         
-      <video className="video-intro" poster="https://mdbootstrap.com/img/Photos/Others/background.jpg" playsInline
+      <video className="video-intro" poster="https://mdbootstrap.com/img/Photos/Others/background.jpg" style={styles.viddeo} playsInline
         autoPlay muted loop>
         <source src="https://static.videezy.com/system/resources/previews/000/009/156/original/fvbhd0229.mp4" type="video/mp4"/>
       </video>
