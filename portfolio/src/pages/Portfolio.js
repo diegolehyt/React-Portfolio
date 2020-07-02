@@ -1,6 +1,6 @@
 import React from "react";
 // import Hero from "../components/Hero";
-import "./portfolio.css";
+// import "./portfolio.css";
 
 const styles = {
   headerB: {

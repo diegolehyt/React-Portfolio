@@ -44,27 +44,27 @@ function Navbar() {
           {/* <!-- Social Icon  --> */}
           <ul className="navbar-nav nav-flex-icons">
             <li className="nav-item">
-              <a className="nav-link" href="https://www.linkedin.com/in/diego-lehyt-1616b11a6/">
+              <a className="nav-link" href="https://www.linkedin.com/in/diego-lehyt-1616b11a6/" target="_blank" rel='noopener noreferrer'>
                 <i className="fab fa-linkedin-in light-green-text-2"></i>
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="https://github.com/diegolehyt">
+              <a className="nav-link" href="https://github.com/diegolehyt" target="_blank" rel='noopener noreferrer'>
                 <i className="fab fa-github light-green-text-2"></i>
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="https://www.docdroid.net/4B2tXwf/diegoresume-pdf">
+              <a className="nav-link" href="https://www.docdroid.net/4B2tXwf/diegoresume-pdf" target="_blank" rel='noopener noreferrer'>
                 <i className="far fa-address-card light-green-text-2"></i>
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="https://www.instagram.com/diego.lehyt/?hl=es">
+              <a className="nav-link" href="https://www.instagram.com/diego.lehyt/?hl=es" target="_blank" rel='noopener noreferrer'>
                 <i className="fab fa-instagram light-green-text-2"></i>
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="https://www.facebook.com/Diego.Lehyt">
+              <a className="nav-link" href="https://www.facebook.com/Diego.Lehyt" target="_blank" rel='noopener noreferrer'>
                 <i className="fab fa-facebook-f light-green-text-2"></i>
               </a>
             </li>
