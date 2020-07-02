@@ -20,7 +20,7 @@ const styles = {
   viddeo: {
     position: 'fixed',
     minHeight: '100%',
-    minWidth: '0%'
+    minWidth: '100%'
   },
   sec: {
     marginTop: '75px'
