@@ -19,11 +19,12 @@ const styles = {
   },
   viddeo: {
     position: 'fixed',
-    height: '100%'
+    minHeight: '100%',
+    minWidth: '100%'
   },
   sec: {
-    marginTop: '150px',
-    marginBottom: '50px'
+    marginTop: '120px',
+    marginBottom: '80px'
   }
 }
 

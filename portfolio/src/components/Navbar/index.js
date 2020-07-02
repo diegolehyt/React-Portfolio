@@ -1,5 +1,5 @@
 import React from "react";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./style.css";
 
 const styles = {
@@ -16,7 +16,7 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
       <div className="container">
-        <a className="navbar-brand" href="index.html" style={styles.navB}><img src="https://raw.githubusercontent.com/diegolehyt/Portfolio-v2.0/master/images/logo.png" width="40px" height="40px" tabindex="-1" style={styles.imgB} alt="logo"/>Diego Lehyt</a>
+        <Link className="navbar-brand" to="/" style={styles.navB}><img src="https://raw.githubusercontent.com/diegolehyt/Portfolio-v2.0/master/images/logo.png" width="40px" height="40px" tabindex="-1" style={styles.imgB} alt="logo"/>Diego Lehyt</Link>
 
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
           aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,13 +27,17 @@ function Navbar() {
 
           <ul className="navbar-nav mr-auto smooth-scroll">
             <li className="nav-item">
-              <a className="nav-link" href="about.html" data-offset="90">About</a>
+              <Link className={
+                window.location.pathname === "/about"
+                  ? "nav-link act"
+                  : "nav-link"
+              } to="/about" data-offset="90">About</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="portfolio.html" data-offset="90">Portfolio</a>
+              <Link className={window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"} to="/portfolio" data-offset="90">Portfolio</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="contact.html" data-offset="90">Contact</a>
+              <Link className="nav-link" to="/contact" data-offset="90">Contact</Link>
             </li>
           </ul>
 
