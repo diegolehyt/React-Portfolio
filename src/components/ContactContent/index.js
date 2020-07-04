@@ -1,10 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./style.css";
 
 const styles = {
   sec: {
     marginTop: '120px',
-    marginBottom: '20%'
+    marginBottom: '40px'
   }
 }
 
@@ -73,7 +74,7 @@ function ContactContent() {
             </form>
     
             <div className="text-center text-md-left">
-              <a className="btn btn-primary btn-md btn-rounded btn-outline-white" href='/contact'>Send</a>
+              <Link className="btn btn-primary btn-md btn-rounded btn-outline-white" to='/'>Send</Link>
             </div>
     
           </div>

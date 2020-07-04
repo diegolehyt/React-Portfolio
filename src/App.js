@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { HashRouter as Router, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
@@ -22,7 +22,7 @@ function App() {
     <Router>
       <header style={styles.headerB}>
         <Navbar />
-        <Wrapper>
+        <Wrapper basename="/">
           <Route exact path="/" component={Home} />
           <Route exact path="/about" component={About} />
           <Route exact path="/portfolio" component={Portfolio} />

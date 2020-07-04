@@ -12,7 +12,7 @@ const styles = {
   headerD: {
     textAlign: "center",
     marginTop: '100px',
-    marginBottom: '15%'
+    marginBottom: '40px'
   },
   headerE: {
     width: "300px",
