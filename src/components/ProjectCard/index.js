@@ -515,7 +515,7 @@ function ProjectCard() {
                 <div className="col-md-6">
                   
                   <div className="view rounded-right" style={styles.H}>
-                    <img className="img-fluid"  style={styles.W} src="https://raw.githubusercontent.com/diegolehyt/React-Portfolio/master/portfolio/public/images/pesas2.jpg" alt="Sample"/>
+                    <img className="img-fluid"  style={styles.W} src="https://raw.githubusercontent.com/diegolehyt/React-Portfolio/master/public/images/pesas2.jpg" alt="Sample"/>
                   </div>
                   
                 </div>
@@ -650,7 +650,7 @@ function ProjectCard() {
                 <div className="col-md-6">
                   
                   <div className="view rounded-right" style={styles.H}>
-                    <img className="img-fluid" style={styles.W} src="https://raw.githubusercontent.com/diegolehyt/React-Portfolio/master/portfolio/public/images/blogo.jpg" alt="Sample"/>
+                    <img className="img-fluid" style={styles.W} src="https://raw.githubusercontent.com/diegolehyt/React-Portfolio/master/public/images/blogo.jpg" alt="Sample"/>
                   </div>
                   
                 </div>

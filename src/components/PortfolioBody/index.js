@@ -18,7 +18,7 @@ function PortfolioBody() {
             <a className="card hoverable mb-4" data-toggle="modal" data-target="#revisa" href>
 
               
-              <img className="card-img-top" src="https://raw.githubusercontent.com/diegolehyt/React-Portfolio/master/portfolio/public/images/revisa.png" alt="Card cap"/>
+              <img className="card-img-top" src="https://raw.githubusercontent.com/diegolehyt/React-Portfolio/master/public/images/revisa.png" alt="Card cap"/>
 
         
               <div className="card-body">
@@ -33,7 +33,7 @@ function PortfolioBody() {
             <a className="card hoverable mb-4" data-toggle="modal" data-target="#burger" href>
 
               
-              <img className="card-img-top" src="https://raw.githubusercontent.com/diegolehyt/React-Portfolio/master/portfolio/public/images/burger.png" alt="Card cap"/>
+              <img className="card-img-top" src="https://raw.githubusercontent.com/diegolehyt/React-Portfolio/master/public/images/burger.png" alt="Card cap"/>
 
               
               <div className="card-body">
@@ -48,7 +48,7 @@ function PortfolioBody() {
             <a className="card hoverable mb-4" data-toggle="modal" data-target="#barsa" href>
 
               
-              <img className="card-img-top" src="https://raw.githubusercontent.com/diegolehyt/React-Portfolio/master/portfolio/public/images/barsa.png" alt="Card cap"/>
+              <img className="card-img-top" src="https://raw.githubusercontent.com/diegolehyt/React-Portfolio/master/public/images/barsa.png" alt="Card cap"/>
 
 
               <div className="card-body">
@@ -70,7 +70,7 @@ function PortfolioBody() {
             <a className="card hoverable mb-4" data-toggle="modal" data-target="#fly" href>
 
               
-              <img className="card-img-top" src="https://raw.githubusercontent.com/diegolehyt/React-Portfolio/master/portfolio/public/images/fly.png" alt="Card cap"/>
+              <img className="card-img-top" src="https://raw.githubusercontent.com/diegolehyt/React-Portfolio/master/public/images/fly.png" alt="Card cap"/>
 
               
               <div className="card-body">
@@ -87,7 +87,7 @@ function PortfolioBody() {
             <a className="card hoverable mb-4" data-toggle="modal" data-target="#notes" href>
 
               
-              <img className="card-img-top" src="https://raw.githubusercontent.com/diegolehyt/React-Portfolio/master/portfolio/public/images/notes.png" alt="Card cap"/>
+              <img className="card-img-top" src="https://raw.githubusercontent.com/diegolehyt/React-Portfolio/master/public/images/notes.png" alt="Card cap"/>
 
               
               <div className="card-body">
@@ -102,7 +102,7 @@ function PortfolioBody() {
             <a className="card hoverable mb-4" data-toggle="modal" data-target="#budget" href>
 
               
-              <img className="card-img-top" src="https://raw.githubusercontent.com/diegolehyt/React-Portfolio/master/portfolio/public/images/budget.png" alt="Card cap"/>
+              <img className="card-img-top" src="https://raw.githubusercontent.com/diegolehyt/React-Portfolio/master/public/images/budget.png" alt="Card cap"/>
 
 
               <div className="card-body">
@@ -125,7 +125,7 @@ function PortfolioBody() {
             <a className="card hoverable mb-4" data-toggle="modal" data-target="#myteam" href>
 
               
-              <img className="card-img-top" src="https://raw.githubusercontent.com/diegolehyt/React-Portfolio/master/portfolio/public/images/myteam.png" alt="Card cap"/>
+              <img className="card-img-top" src="https://raw.githubusercontent.com/diegolehyt/React-Portfolio/master/public/images/myteam.png" alt="Card cap"/>
 
               
               <div className="card-body">
@@ -142,7 +142,7 @@ function PortfolioBody() {
             <a className="card hoverable mb-4" data-toggle="modal" data-target="#fitness" href>
 
               
-              <img className="card-img-top" src="https://raw.githubusercontent.com/diegolehyt/React-Portfolio/master/portfolio/public/images/fitness.png" alt="Card cap"/>
+              <img className="card-img-top" src="https://raw.githubusercontent.com/diegolehyt/React-Portfolio/master/public/images/fitness.png" alt="Card cap"/>
 
               
               <div className="card-body">
@@ -157,7 +157,7 @@ function PortfolioBody() {
             <a className="card hoverable mb-4" data-toggle="modal" data-target="#weather" href>
 
               
-              <img className="card-img-top" src="https://raw.githubusercontent.com/diegolehyt/React-Portfolio/master/portfolio/public/images/weather.png" alt="Card cap"/>
+              <img className="card-img-top" src="https://raw.githubusercontent.com/diegolehyt/React-Portfolio/master/public/images/weather.png" alt="Card cap"/>
 
 
               <div className="card-body">
