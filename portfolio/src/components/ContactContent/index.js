@@ -3,7 +3,8 @@ import "./style.css";
 
 const styles = {
   sec: {
-    marginTop: '120px'
+    marginTop: '120px',
+    marginBottom: '20%'
   }
 }
 

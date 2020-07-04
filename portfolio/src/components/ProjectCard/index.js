@@ -37,6 +37,11 @@ const styles = {
     fontSize:'36px',
     marginRight: '5px'
   },
+  uiS: {
+    fontSize:'36px',
+    marginRight: '5px',
+    color:'lightblue'
+  },
   gitS: {
     fontSize:'24px', 
     color: 'rgb(110, 94, 136)'
@@ -475,35 +480,33 @@ function ProjectCard() {
     
                 <div className="col-md-6 py-5 pl-5">
                   
-                  <h5 className="font-weight-normal mb-3">Revisa</h5>
+                  <h5 className="font-weight-normal mb-3">Fitness Tracker</h5>
   
-                  <p className="text-muted">Restaurant quality reviewing app, that contains recent relevant information and reviews on a restaurant, affordability, atmosphere/location, food and if it is clean.</p>
+                  <p className="text-muted">"Fitness" is a web application that can help you keep track of your workout plan more organize. Powered by mongoDB and javascript you can see the workouts with all your exercise plus the stats (from the database).</p>
   
                   <ul className="list-unstyled font-small mt-5">
                     <li>
                       <p className="text-uppercase mb-2"><strong>Date</strong></p>
-                      <p className="text-muted mb-4">June 1, 2020</p>
+                      <p className="text-muted mb-4">June 12, 2020</p>
                     </li>
   
                     <li>
                       <p className="text-uppercase mb-2"><strong>Skills</strong></p>
                       <p className="text-muted mb-4">
-                        <i className="fab fa-node" style={styles.nodeS}></i>
+                      <i className="fab fa-node" style={styles.nodeS}></i>
                         <i className="fab fa-css3-alt" style={styles.cssS}></i>
                         <i className="fab fa-html5" style={styles.htmlS}></i>
                         <i className="fab fa-js-square" style={styles.jsS}></i>
-                        <i className="fab fa-bootstrap" style={styles.bootS}></i>
                         <i className="fas fa-database" style={styles.dbS}></i>
+                        <i className="fab fa-uikit" style={styles.uiS}></i>
                       </p>
                     </li>
   
                     <li>
                       <p className="text-uppercase mb-2"><strong>URLs</strong></p>
-                      <a target="_blank" rel='noopener noreferrer' href="https://revisaproject2.herokuapp.com/">- <i className="fab fa-github-square" style={styles.gitS}></i> Deployment</a>
+                      <a target="_blank" rel='noopener noreferrer' href="https://arcane-retreat-10341.herokuapp.com/">- <i className="fab fa-github-square" style={styles.gitS}></i> Deployment</a>
                       <br/>
-                      <a target="_blank" rel='noopener noreferrer' href="https://github.com/diegolehyt/Project2.git">- <i className="fab fa-git-square" style={styles.githS}></i> Repository</a>
-                      <br/>
-                      <a target="_blank" rel='noopener noreferrer' href="https://youtu.be/DWZUl9LlSak">- <i className="fab fa-youtube" style={styles.ytS}></i> Demo</a>
+                      <a target="_blank" rel='noopener noreferrer' href="https://github.com/diegolehyt/homework17.git">- <i className="fab fa-git-square" style={styles.githS}></i> Repository</a>
                     </li>
                   </ul>
                   
@@ -539,34 +542,36 @@ function ProjectCard() {
                 
                 <div className="col-md-6 py-5 pl-5">
                   
-                  <h5 className="font-weight-normal mb-3">Weather Dashboard</h5>
+                  <h5 className="font-weight-normal mb-3">Budget Tracker</h5>
   
-                  <p className="text-muted">This repository content the html files: index "main page", the CSS styles "style.css", the JavaScript "script.js" and an "image" folder with the captures for this Readme File.</p>
+                  <p className="text-muted">"Budget Tracker" is a web application that can help you keep track of your general budget. Giving users a fast and easy way to track their money, allowing them to access that information anytime is even more important.</p>
   
                   <ul className="list-unstyled font-small mt-5">
   
                     <li>
                       <p className="text-uppercase mb-2"><strong>Date</strong></p>
-                      <p className="text-muted mb-4">March 27, 2020</p>
+                      <p className="text-muted mb-4">June 15, 2020</p>
                     </li>
   
                     <li>
                       <p className="text-uppercase mb-2"><strong>Skills</strong></p>
                       <p className="text-muted mb-4">
 
+                        <i className="fab fa-node" style={styles.nodeS}></i>
                         <i className="fab fa-css3-alt" style={styles.cssS}></i>
                         <i className="fab fa-html5" style={styles.htmlS}></i>
                         <i className="fab fa-js-square" style={styles.jsS}></i>
                         <i className="fab fa-bootstrap" style={styles.bootS}></i>
+                        <i className="fas fa-database" style={styles.dbS}></i>
             
                       </p>
                     </li>
   
                     <li>
                       <p className="text-uppercase mb-2"><strong>URLs</strong></p>
-                      <a target="_blank" rel='noopener noreferrer' href="https://diegolehyt.github.io/homework6/">- <i className="fab fa-github-square" style={styles.gitS}></i> Deployment</a>
+                      <a target="_blank" rel='noopener noreferrer' href="https://murmuring-journey-67575.herokuapp.com/">- <i className="fab fa-github-square" style={styles.gitS}></i> Deployment</a>
                       <br/>
-                      <a target="_blank" rel='noopener noreferrer' href="https://github.com/diegolehyt/homework6.git">- <i className="fab fa-git-square" style={styles.githS}></i> Repository</a>
+                      <a target="_blank" rel='noopener noreferrer' href="https://github.com/diegolehyt/Budget-Tracker.git">- <i className="fab fa-git-square" style={styles.githS}></i> Repository</a>
                     </li>
                   </ul>
                   
@@ -577,7 +582,7 @@ function ProjectCard() {
                 <div className="col-md-6">
                   
                   <div className="view rounded-right" style={styles.H}>
-                    <img className="img-fluid" style={styles.W} src="images/pig.jpg" alt="Sample"/>
+                    <img className="img-fluid" style={styles.W} src="https://media.istockphoto.com/photos/gold-piggy-bank-on-cashvertical-picture-id97415315?k=6&m=97415315&s=612x612&w=0&h=tRenVbmtq0MXy4fI80crEzVYAF01uxSHAtYChfcDUF8=" alt="Sample"/>
                   </div>
                   
                 </div>
@@ -605,21 +610,23 @@ function ProjectCard() {
                 
                 <div className="col-md-6 py-5 pl-5">
                   
-                  <h5 className="font-weight-normal mb-3">Weather Dashboard</h5>
+                  <h5 className="font-weight-normal mb-3">Employee Directory</h5>
   
-                  <p className="text-muted">This repository content the html files: index "main page", the CSS styles "style.css", the JavaScript "script.js" and an "image" folder with the captures for this Readme File.</p>
+                  <p className="text-muted">"Employee Directory" is a web application builded using React App (front end). Giving users a fast and easy way to track their employees non-sensitive data.</p>
   
                   <ul className="list-unstyled font-small mt-5">
   
                     <li>
                       <p className="text-uppercase mb-2"><strong>Date</strong></p>
-                      <p className="text-muted mb-4">March 27, 2020</p>
+                      <p className="text-muted mb-4">June 27, 2020</p>
                     </li>
   
                     <li>
                       <p className="text-uppercase mb-2"><strong>Skills</strong></p>
                       <p className="text-muted mb-4">
 
+                        <i className="fab fa-node" style={styles.nodeS}></i>
+                        <i className="fab fa-react" style={styles.uiS}></i>
                         <i className="fab fa-css3-alt" style={styles.cssS}></i>
                         <i className="fab fa-html5" style={styles.htmlS}></i>
                         <i className="fab fa-js-square" style={styles.jsS}></i>
@@ -630,9 +637,9 @@ function ProjectCard() {
   
                     <li>
                       <p className="text-uppercase mb-2"><strong>URLs</strong></p>
-                      <a target="_blank" rel='noopener noreferrer' href="https://diegolehyt.github.io/homework6/">- <i className="fab fa-github-square" style={styles.gitS}></i> Deployment</a>
+                      <a target="_blank" rel='noopener noreferrer' href="https://diegolehyt.github.io/Employee-Directory/">- <i className="fab fa-github-square" style={styles.gitS}></i> Deployment</a>
                       <br/>
-                      <a target="_blank" rel='noopener noreferrer' href="https://github.com/diegolehyt/homework6.git">- <i className="fab fa-git-square" style={styles.githS}></i> Repository</a>
+                      <a target="_blank" rel='noopener noreferrer' href="https://github.com/diegolehyt/Employee-Directory.git">- <i className="fab fa-git-square" style={styles.githS}></i> Repository</a>
                     </li>
                   </ul>
                   

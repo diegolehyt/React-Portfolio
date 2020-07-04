@@ -16,13 +16,17 @@ const styles = {
     position: 'relative',
     overflow: 'hidden'
   },
-  viddeo: {
+  vidddeo: {
     position: 'fixed',
-    minHeight: '100%',
+    maxHeight: '100%',
     minWidth: '100%'
   },
   sec: {
-    marginTop: '160px'
+    marginTop: '20%',
+    height: '100%'
+  },
+  sic: {
+    maxHeight: '100%'
   }
 }
 

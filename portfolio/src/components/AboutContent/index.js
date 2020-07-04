@@ -11,7 +11,12 @@ const styles = {
   },
   headerD: {
     textAlign: "center",
-    marginTop: '100px' 
+    marginTop: '100px',
+    marginBottom: '15%'
+  },
+  headerE: {
+    width: "300px",
+    height: '300px'
   }
 }
 
@@ -21,7 +26,7 @@ function AboutContent() {
 
       <div className="avatar mx-auto mb-4">
         <img src="https://raw.githubusercontent.com/diegolehyt/Portfolio-v2.0/master/images/github3.jpg" className="rounded-circle img-fluid center2"
-          alt="First sample avatar"/>
+          alt="First sample avatar" style={styles.headerE}/>
       </div>
 
       <p className="white-text">

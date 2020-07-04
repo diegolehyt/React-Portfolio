@@ -108,7 +108,7 @@ function PortfolioBody() {
               <div className="card-body">
 
                 <h5 className="my-3">Budget Tracker</h5>
-                <p className="card-text text-uppercase mb-3">Track your funds</p>
+                <p className="card-text text-uppercase mb-3">Keep Track of your Funds</p>
 
               </div>
 
