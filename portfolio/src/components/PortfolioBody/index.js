@@ -45,16 +45,16 @@ function PortfolioBody() {
 
             </a>
             
-            <a className="card hoverable mb-4" data-toggle="modal" data-target="#revisa" href>
+            <a className="card hoverable mb-4" data-toggle="modal" data-target="#barsa" href>
 
               
-              <img className="card-img-top" src="images/revisa.png" alt="Card cap"/>
+              <img className="card-img-top" src="images/barsa.png" alt="Card cap"/>
 
 
               <div className="card-body">
 
-                <h5 className="my-3">Revisa</h5>
-                <p className="card-text text-uppercase mb-3">Restaurants reviews</p>
+                <h5 className="my-3">Barcelona Management</h5>
+                <p className="card-text text-uppercase mb-3">Employee Directory</p>
 
               </div>
 
@@ -99,16 +99,16 @@ function PortfolioBody() {
 
             </a>
 
-            <a className="card hoverable mb-4" data-toggle="modal" data-target="#weather" href>
+            <a className="card hoverable mb-4" data-toggle="modal" data-target="#budget" href>
 
               
-              <img className="card-img-top" src="images/weather.png" alt="Card cap"/>
+              <img className="card-img-top" src="images/budget.png" alt="Card cap"/>
 
 
               <div className="card-body">
 
-                <h5 className="my-3">Weather app</h5>
-                <p className="card-text text-uppercase mb-3">Weather Dashboard</p>
+                <h5 className="my-3">Budget Tracker</h5>
+                <p className="card-text text-uppercase mb-3">Track your funds</p>
 
               </div>
 
@@ -139,16 +139,16 @@ function PortfolioBody() {
             
 
             
-            <a className="card hoverable mb-4" data-toggle="modal" data-target="#weather" href>
+            <a className="card hoverable mb-4" data-toggle="modal" data-target="#fitness" href>
 
               
-              <img className="card-img-top" src="images/weather.png" alt="Card cap"/>
+              <img className="card-img-top" src="images/fitness.png" alt="Card cap"/>
 
               
               <div className="card-body">
 
-                <h5 className="my-3">Weather app</h5>
-                <p className="card-text text-uppercase mb-3">Weather Dashboard</p>
+                <h5 className="my-3">Fitness Tracker</h5>
+                <p className="card-text text-uppercase mb-3">Keep Track of your Workouts</p>
 
               </div>
 

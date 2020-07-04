@@ -461,7 +461,7 @@ function ProjectCard() {
         </div>
       </div>
 
-      <div className="modal fade" id="revisa" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div className="modal fade" id="fitness" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div className="modal-dialog modal-lg modal-dialog-centered" role="document">
           <div className="modal-content">
             <div className="modal-body p-0" style={styles.mhS}>
@@ -512,7 +512,7 @@ function ProjectCard() {
                 <div className="col-md-6">
                   
                   <div className="view rounded-right" style={styles.H}>
-                    <img className="img-fluid"  style={styles.W} src="https://image.freepik.com/foto-gratis/copas-vino-mesa-bokeh-fondo-bac_23-2148261695.jpg" alt="Sample"/>
+                    <img className="img-fluid"  style={styles.W} src="images/pesas2.jpg" alt="Sample"/>
                   </div>
                   
                 </div>
@@ -525,7 +525,7 @@ function ProjectCard() {
         </div>
       </div>
 
-      <div className="modal fade" id="weather" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div className="modal fade" id="budget" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div className="modal-dialog modal-lg modal-dialog-centered" role="document">
           <div className="modal-content">
             <div className="modal-body p-0" style={styles.mhS}>
@@ -577,7 +577,7 @@ function ProjectCard() {
                 <div className="col-md-6">
                   
                   <div className="view rounded-right" style={styles.H}>
-                    <img className="img-fluid" style={styles.W} src="https://i.pinimg.com/736x/4d/16/6b/4d166b4e8a6dd11af1ee5d5764138ac6--lightning-storms-lightning-strikes.jpg" alt="Sample"/>
+                    <img className="img-fluid" style={styles.W} src="images/pig.jpg" alt="Sample"/>
                   </div>
                   
                 </div>
@@ -591,7 +591,7 @@ function ProjectCard() {
         </div>
       </div>
 
-      <div className="modal fade" id="weather" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div className="modal fade" id="barsa" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div className="modal-dialog modal-lg modal-dialog-centered" role="document">
           <div className="modal-content">
             <div className="modal-body p-0" style={styles.mhS}>
@@ -643,7 +643,7 @@ function ProjectCard() {
                 <div className="col-md-6">
                   
                   <div className="view rounded-right" style={styles.H}>
-                    <img className="img-fluid" style={styles.W} src="https://i.pinimg.com/736x/4d/16/6b/4d166b4e8a6dd11af1ee5d5764138ac6--lightning-storms-lightning-strikes.jpg" alt="Sample"/>
+                    <img className="img-fluid" style={styles.W} src="images/blogo.jpg" alt="Sample"/>
                   </div>
                   
                 </div>
