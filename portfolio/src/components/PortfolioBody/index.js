@@ -18,7 +18,7 @@ function PortfolioBody() {
             <a className="card hoverable mb-4" data-toggle="modal" data-target="#revisa" href>
 
               
-              <img className="card-img-top" src="https://raw.githubusercontent.com/diegolehyt/Portfolio-v2.0/master/images/revisa.png" alt="Card cap"/>
+              <img className="card-img-top" src="images/revisa.png" alt="Card cap"/>
 
         
               <div className="card-body">
@@ -33,7 +33,7 @@ function PortfolioBody() {
             <a className="card hoverable mb-4" data-toggle="modal" data-target="#burger" href>
 
               
-              <img className="card-img-top" src="https://raw.githubusercontent.com/diegolehyt/Portfolio-v2.0/master/images/burger.png" alt="Card cap"/>
+              <img className="card-img-top" src="images/burger.png" alt="Card cap"/>
 
               
               <div className="card-body">
@@ -45,6 +45,20 @@ function PortfolioBody() {
 
             </a>
             
+            <a className="card hoverable mb-4" data-toggle="modal" data-target="#revisa" href>
+
+              
+              <img className="card-img-top" src="images/revisa.png" alt="Card cap"/>
+
+
+              <div className="card-body">
+
+                <h5 className="my-3">Revisa</h5>
+                <p className="card-text text-uppercase mb-3">Restaurants reviews</p>
+
+              </div>
+
+            </a>
 
           </div>
           
@@ -56,7 +70,7 @@ function PortfolioBody() {
             <a className="card hoverable mb-4" data-toggle="modal" data-target="#fly" href>
 
               
-              <img className="card-img-top" src="https://raw.githubusercontent.com/diegolehyt/Portfolio-v2.0/master/images/fly.png" alt="Card cap"/>
+              <img className="card-img-top" src="images/fly.png" alt="Card cap"/>
 
               
               <div className="card-body">
@@ -73,13 +87,28 @@ function PortfolioBody() {
             <a className="card hoverable mb-4" data-toggle="modal" data-target="#notes" href>
 
               
-              <img className="card-img-top" src="https://raw.githubusercontent.com/diegolehyt/Portfolio-v2.0/master/images/notes.png" alt="Card cap"/>
+              <img className="card-img-top" src="images/notes.png" alt="Card cap"/>
 
               
               <div className="card-body">
 
                 <h5 className="my-3">Note Taker</h5>
                 <p className="card-text text-uppercase mb-3">Save your daily notes</p>
+
+              </div>
+
+            </a>
+
+            <a className="card hoverable mb-4" data-toggle="modal" data-target="#weather" href>
+
+              
+              <img className="card-img-top" src="images/weather.png" alt="Card cap"/>
+
+
+              <div className="card-body">
+
+                <h5 className="my-3">Weather app</h5>
+                <p className="card-text text-uppercase mb-3">Weather Dashboard</p>
 
               </div>
 
@@ -96,7 +125,7 @@ function PortfolioBody() {
             <a className="card hoverable mb-4" data-toggle="modal" data-target="#myteam" href>
 
               
-              <img className="card-img-top" src="https://raw.githubusercontent.com/diegolehyt/Portfolio-v2.0/master/images/myteam.png" alt="Card cap"/>
+              <img className="card-img-top" src="images/myteam.png" alt="Card cap"/>
 
               
               <div className="card-body">
@@ -113,9 +142,24 @@ function PortfolioBody() {
             <a className="card hoverable mb-4" data-toggle="modal" data-target="#weather" href>
 
               
-              <img className="card-img-top" src="https://raw.githubusercontent.com/diegolehyt/Portfolio-v2.0/master/images/weather.png" alt="Card cap"/>
+              <img className="card-img-top" src="images/weather.png" alt="Card cap"/>
 
               
+              <div className="card-body">
+
+                <h5 className="my-3">Weather app</h5>
+                <p className="card-text text-uppercase mb-3">Weather Dashboard</p>
+
+              </div>
+
+            </a>
+
+            <a className="card hoverable mb-4" data-toggle="modal" data-target="#weather" href>
+
+              
+              <img className="card-img-top" src="images/weather.png" alt="Card cap"/>
+
+
               <div className="card-body">
 
                 <h5 className="my-3">Weather app</h5>

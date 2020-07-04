@@ -5,20 +5,6 @@ import Mask from "../components/Mask";
 import Container from "../components/Container";
 import ContactContent from "../components/ContactContent";
 
-// const mql = window.matchMedia('(max-width: 400px)');
-// const listenerFunc = () => {
-  
-//   if (mql.matches) {
-//     document.body.style.height = "150%";
-//   }
-// };
-
-// mql.addListener(listenerFunc);
-
-
-// document.body.style.height = "150%";
-
-
 function Contact() {
   return (
     <Intro>  
@@ -33,3 +19,16 @@ function Contact() {
 }
 
 export default Contact;
+
+// const mql = window.matchMedia('(max-width: 400px)');
+// const listenerFunc = () => {
+  
+//   if (mql.matches) {
+//     document.body.style.height = "150%";
+//   }
+// };
+
+// mql.addListener(listenerFunc);
+
+
+// document.body.style.height = "150%";
